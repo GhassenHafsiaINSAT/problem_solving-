@@ -24,7 +24,6 @@ public:
             somme += factors[j];
         }
         n = somme;
-        cout << "check "<< n << endl;
         int nb = 0;
         for (int k = 2; k <= sqrt(n) ; k++)
         {
